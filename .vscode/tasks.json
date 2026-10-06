@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "PlatformIO: Upload OTA",
+      "type": "process",
+      "command": "C:\\Users\\withc\\.platformio\\penv\\Scripts\\platformio.exe",
+      "args": [
+        "run",
+        "-e",
+        "esp32doit-devkit-v1",
+        "-t",
+        "upload"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
